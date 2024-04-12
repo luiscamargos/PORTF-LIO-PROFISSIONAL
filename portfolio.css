@@ -1,0 +1,328 @@
+* { margin: 0;}
+html{
+    scroll-behavior: smooth;
+    text-align: center;
+    width: 100%;
+    list-style: none;
+    display: table-cell;
+    vertical-align: bottom;
+    background-color: #080808;
+    image-rendering: optimizeQuality;  
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    position: fixed;
+    background-color: #00AD6F;
+    height: 6rem;
+    width: 100%;
+    cursor: pointer;
+    font: 15pt Copperplate Gothic;
+    
+}   
+section{
+    min-height: 100vh;
+    padding-top: 5rem;
+    padding: 15px;
+    align-items: center;
+    font: 15pt Copperplate Gothic;
+}
+#inicio{
+    background-color: #0E1311;
+    padding: 15px;
+    text-align: center;
+    color: #00AD6F;
+    display: center;
+    align-items: center;
+    font: 15pt Copperplate Gothic;
+    color:#00AD6F;
+    font-size: 2rem;
+    text-shadow:#00AD6F 0px 0px 10px;
+    img{
+        width: 250px;
+       height: 250px;
+      transition: all 0.9s;
+       cursor: pointer;
+       animation-duration: 5s;
+       animation-timing-function: linear;
+       animation-iteration-count: infinite;
+       }
+       
+       img:hover{
+           -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+           filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+           -webkit-transform: scale(1.4);
+           transform: scale(1.4);
+    }
+}
+div{
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    text-align: center;
+    text-indent: 15pt 3rem; 
+    font: 15pt Copperplate Gothic;
+    line-height: normal;
+    height: 200px;
+    width: 1200px;
+        animation-duration: 2s;
+        animation-name: slidein;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+        
+        
+}
+#sobre{
+    padding: 15px;
+    text-align: center;
+    font: 15pt Copperplate Gothic;
+    color: #00AD6F;
+    h1{
+    font-size: 2rem;
+    text-shadow:#00AD6F 0px 0px 10px;}
+    align-items: center;
+    img{
+        width:   300px;
+        height:   300px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+     }
+}
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+
+  to {
+      transform: rotate(359deg);
+  }
+}
+#projetos{
+    text-align: center;
+    background-color:  #0E1311;
+    font: 15pt Copperplate Gothic;
+    color:  #00AD6F;
+    h1{ font-size: 2rem;
+    text-shadow:#00AD6F 0px 0px 10px; }
+    align-items: center;
+    align-self: center;
+    gap: 15rem;
+    img{
+       width: 150px;
+      height: 150px;
+     transition: all 0.9s;
+      cursor: pointer;
+      display: flex;
+      }
+      
+      img:hover{
+          -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+          filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+          -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+   }
+   .scroll-section{
+       background-color:  #0E1311 ;
+       border: none;
+      color: #00AD6F;
+       padding: 5px 20px; 
+       float:none;
+       margin-right: 20px;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 30px;
+       margin: 7px 2px;
+       cursor: pointer;
+      
+   }
+   }
+   
+    /* text-align: center;
+    font: 15pt Copperplate Gothic; 
+    color:  #00AD6F;
+    align-items: center;
+    position: center;
+    float: center;
+    display: inline-flex;
+    h1{
+    font-size: 2rem;
+    text-shadow:#00AD6F 0px 0px 10px;
+    }
+    a{
+        text-shadow:#f9fffd 5px 5px 10px;
+ background-color:  #00AD6F;
+ color: rgb(24, 53, 53); 
+ transition: all 0.9s;
+ cursor: pointer;}
+ a:hover{
+    -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    
+        img{
+            width:   200px;
+            height:   200px;
+          
+          transition: all 0.9s;
+          cursor: pointer;
+          padding: none;
+          align-items: center;
+          
+          }
+          img:hover{
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+          }
+          .scroll-section{
+        align-items: center;
+            border: 0;
+            border: none;
+            color: none;
+            padding: 15px 20px; 
+            float:none;
+            margin-right: none;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 30px;
+            margin: 7px 2px;
+            cursor: pointer;
+            border-radius: 16px;
+            transition: background-color 15.0s ease;
+            text-shadow: 0.5px 1.5px 1.5px;
+            .scroll-section:hover{
+                -webkit-transform: scale(1.4);
+                transform: scale(1.4);
+        
+        }
+          }
+*/
+#contato{
+ text-align: center;
+ font: 15pt Copperplate Gothic;
+ color:  #00AD6F;
+ h1{ font-size: 2rem;
+ text-shadow:#00AD6F 0px 0px 10px; }
+ align-items: center;
+ align-self: center;
+ gap: 15rem;
+ img{
+    width: 60px;
+   height: 60px;
+  transition: all 0.9s;
+   cursor: pointer;
+   }
+   
+   img:hover{
+       -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+       filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+       -webkit-transform: scale(1.4);
+       transform: scale(1.4);
+}
+.scroll-section{
+    background-color:  #0E1311 ;
+    border: none;
+   color: #00AD6F;
+    padding: 5px 20px; 
+    float:none;
+    margin-right: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 7px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    
+}
+}
+#habilidades{
+ background-color:  #0E1311;
+    text-align: center;
+ font: 15pt Copperplate Gothic;
+ color: #00AD6F;
+ h1{
+    font-size: 2rem;
+    text-shadow:#00AD6F 0px 0px 10px;}
+ img{
+     width: 100px;
+    height: 100px;
+   transition: all 0.9s;
+    cursor: pointer;
+    }
+    
+    img:hover{
+        -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+ }
+}
+a{
+ text-shadow:#000000 5px 5px 10px;
+ background-color:  #00AD6F;
+ color:  #0E1311; 
+ transition: all 0.9s;
+ cursor: pointer;
+ font: 15pt Copperplate Gothic;
+ background-color: #00AD6F  ;
+ border: none;
+ color: rgba(0, 0, 0, 0.594); 
+ padding: 10px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 18px;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius: 8px;
+ transition: background-color 0.5s ease;
+ 
+}
+a:hover{
+        -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+}
+p{
+ line-height: 30px;
+ text-align: center;
+
+}
+.scroll-section{
+    background-color: #00AD6F;
+    border: none;
+   color:  rgb(0, 0, 0);
+    padding: 5px 20px; 
+    float:none;
+    margin-right: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 7px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: background-color 15.0s ease;
+    text-shadow: 0.5px 1.5px 1.5px;
+    .scroll-section:hover{
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+    }
+}
+.area{
+    align-items: center;
+    float: center;
+    text-align: center;
+    padding: 15px;
+   
+}
+.img.imagemhab{
+    width: 600px;
+    height: 400px;
+
+}
