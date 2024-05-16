@@ -112,28 +112,42 @@ div{
     text-align: center;
     background-color:  #0E1311;
     font: 15pt Copperplate Gothic;
-    color:  #00AD6F;
-    h1{ font-size: 2rem;
-    text-shadow:#00AD6F 0px 0px 10px; }
+    text-align: center;
+    color:  rgb(248, 211, 162);
     align-items: center;
     align-self: center;
-    img{
-      width: 150px;
-      height: 150px;
-      transition: all 0.9s;
-      cursor: pointer;
-      display: flex;
-      padding: 6rem;
-      border-radius: 50%;
-      grid-area: auto;
-      }
-      
-      img:hover{
-          -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
-          filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-          -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-   }
+    gap: 10rem;
+  p{
+    font: 20pt Copperplate Gothic;
+  }
+  img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+  }
+  a{
+  text-decoration: none;
+  text-shadow:black 5px 5px 10px;
+  background-color: none;
+  font: 15pt Copperplate Gothic;
+  background-color:none ;
+  color: rgb(255, 255, 255); 
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 1.5s;
+}
+a:hover{
+         -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+         filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+         -webkit-transform: scale(1.2);
+         transform: scale(1.2);
+} 
 }
     /* text-align: center;
     font: 15pt Copperplate Gothic; 
@@ -274,23 +288,14 @@ a{
  margin: 4px 2px;
  cursor: pointer;
  border-radius: 8px;
-
  transition: all 1.5s;
  cursor: pointer;
-
-}
- img:hover{
-     -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
-     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-     -webkit-transform: scale(1.4);
-     transform: scale(1.4);
- 
 }
 a:hover{
         -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
         filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-        -webkit-transform: scale(1.4);
-        transform: scale(1.4);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
 }
 p{
  line-height: 30px;
