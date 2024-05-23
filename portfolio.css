@@ -22,8 +22,18 @@ nav ul{
     font: 15pt Copperplate Gothic;
     a{
         color: none;
+        border: 0%;
+        padding: 0;
+        transition: all 0.9s;
+        cursor: pointer;
     }
+    a:hover{
+        -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
 }   
+}
 section{
     min-height: 100vh;
     padding-top: 5rem;
