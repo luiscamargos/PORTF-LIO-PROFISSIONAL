@@ -295,7 +295,7 @@ p{
 
 }
 .scroll-section{
-    background-color: #00AD6F;
+    background-color: none;
     border: none;
    color:  rgb(0, 0, 0);
     padding: 5px 20px; 
@@ -307,7 +307,7 @@ p{
     margin: 7px 2px;
     cursor: pointer;
     border-radius: 16px;
-    transition: background-color 15.0s ease;
+    transition: background-color 3.0s ease;
     text-shadow: 0.5px 1.5px 1.5px;
     .scroll-section:hover{
         -webkit-transform: scale(1.4);
