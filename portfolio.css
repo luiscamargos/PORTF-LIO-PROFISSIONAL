@@ -20,7 +20,9 @@ nav ul{
     width: 100%;
     cursor: pointer;
     font: 15pt Copperplate Gothic;
-    
+    a{
+        color: none;
+    }
 }   
 section{
     min-height: 100vh;
