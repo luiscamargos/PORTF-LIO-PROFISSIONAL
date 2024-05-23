@@ -224,21 +224,6 @@ div{
        -webkit-transform: scale(1.4);
        transform: scale(1.4);
 }
-.scroll-section{
-    background-color:  #0E1311 ;
-    border: none;
-   color: #00AD6F;
-    padding: 5px 20px; 
-    float:none;
-    margin-right: 20px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    margin: 7px 2px;
-    cursor: pointer;
-    border-radius: 16px;
-    
-}
 }
 #habilidades{
  background-color:  #0E1311;
@@ -264,8 +249,8 @@ div{
 }
 a{
  text-shadow:#000000 5px 5px 10px;
- background-color:  #00AD6F;
- color:  #0E1311; 
+ background-color:  none;
+ color:  none; 
  transition: all 0.9s;
  cursor: pointer;
  font: 15pt Copperplate Gothic;
@@ -294,23 +279,7 @@ p{
  text-align: center;
 
 }
-.scroll-section{
-    background-color: none;
-    border: none;
-   color:  rgb(0, 0, 0);
-    padding: 5px 20px; 
-    float:none;
-    margin-right: 20px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    margin: 7px 2px;
-    cursor: pointer;
-    border-radius: 16px;
-    transition: background-color 3.0s ease;
-    text-shadow: 0.5px 1.5px 1.5px;
-    .scroll-section:hover{
-        -webkit-transform: scale(1.4);
+form: scale(1.4);
         transform: scale(1.4);
     }
 }
