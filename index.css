@@ -13,7 +13,7 @@ nav ul{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 100%;
+    gap: 10rem;
     position: fixed;
     background-color: #00AD6F;
     height: 6rem;
