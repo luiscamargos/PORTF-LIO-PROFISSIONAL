@@ -293,7 +293,7 @@ p{
 a{
  text-shadow:#000000 5px 5px 10px;
  background-color: none;
- color:  #0E1311; 
+ color:  none; 
  transition: all 0.9s;
  cursor: pointer;
  font: 15pt Copperplate Gothic;
