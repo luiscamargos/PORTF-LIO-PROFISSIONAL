@@ -1,0 +1,456 @@
+* { margin: 0;}
+* {padding: 0;}
+html{
+  scroll-behavior: smooth;
+  text-align: center;
+  width: 100%;
+  list-style: none;
+  display: table-cell;
+  vertical-align: bottom;
+  background-image: url(tijolo.jpg);
+}
+.efeito-txt, .efeito-img{
+  visibility: hidden;
+}
+body{
+color: rgba(255, 255, 255, 0.594); 
+font: white;
+text-align: center;
+width: 100%;
+justify-content: space-around;
+@media screen and(max-width: 768px) {
+      
+}
+  body{
+    background-color: saddlebrown;
+  }
+}
+@media screen and (max-width: 600px){
+body{
+  background-color: aliceblue;
+}
+}
+nav ul{
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  position: absolute;
+  padding-top: 5rem;
+  height: 5rem;
+  width: 100%;
+  transition: all 0.5;
+  cursor: pointer;
+  font: 15pt Impact, fantasy;
+  font-family: Saira, sans-serif;
+  padding: 0;
+  transition: .3s ease;
+  background-color: #00AD6F;
+  @media screen and (max-width: 768px){
+    section, aside{
+      width: 100%;
+    }
+  
+    }
+  a{
+    color: #ffffff;
+    font: 15pt Copperplate Gothic;
+    text-decoration: none;
+        text-shadow:#00AD6F;
+        transition: all 0.9s;
+        cursor: pointer;
+        font: 15pt Copperplate Gothic;
+        border: none; 
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.9s;
+        cursor: pointer;
+        
+       
+      }
+      a:hover{
+               -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+               filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+               -webkit-transform: scale(1.4);
+               transform: scale(1.4);
+      } 
+}
+.nav ul:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}  
+li{
+      text-shadow:#000000 5px 5px 10px;
+      background-color: none;
+      color: black; 
+      transition: all 0.9s;
+      cursor: pointer;
+      font: 15pt Copperplate Gothic;
+      background-color:none  ;
+      border: none;
+      color:red; 
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color all 0.9s ease;
+      @media screen and (max-width: 768px){
+        section, aside{
+          width: 100%;
+        }
+      
+        }
+      
+}
+.li:hover{
+             -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+             filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+             -webkit-transform: scale(1.4);
+             transform: scale(1.4);
+     
+}
+section{
+  min-height: 100vh;
+  padding-top: 10rem;
+  padding: 15px;
+  align-items: center;
+}
+#Inicio{
+  background-color: #000000;
+  text-align: center;
+  font: 12pt Arial, fantasy;
+  color: #00AD6F ;
+  position: center;  
+  align-items: center;
+  h1{
+    color:  #00AD6F;
+    text-shadow: 1px 1px 3px #00AD6F;
+    font: 30pt Copperplate Gothic; ;
+  }
+  p{
+    font: 15pt Impact, fantasy;
+
+  }
+  img1{
+    width: 350px ;
+    height: 350px;
+    animation: rotate 30s linear infinite;
+    position:sticky;
+    
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+  
+      to {
+        transform: rotate(359deg);
+      }
+  }
+  }
+
+    
+    .proxpag{
+      img{
+      width: 15px;
+      height: 15px;
+      color: #ffffff;
+      background-color: aqua;
+      text-align: left;
+      align-items: end;
+      }
+     
+    
+  }
+}
+ 
+#Sobre{
+  background-color: rgb(0, 0, 0);
+    padding: 0%;
+    text-decoration-color: cyan;
+    text-align: center;
+    color:  #ffffff;
+    align-items: center;
+    gap: 5rem;
+    p{
+      font: 15pt Copperplate Gothic;
+    }
+    p2{
+        font: 15pt Copperplate Gothic;
+    }
+    p3{
+        font: 15pt Copperplate Gothic;
+    }
+    img{
+        width: 600px;
+        height: 300px;
+        border-radius: 20%;
+}
+.div.sobre{
+  display: flex;
+} button{
+  width: 15px;
+  height: 15px;
+  color: #ffffff;
+  background-color: aqua;
+  text-align: left;
+  align-items: end;
+  img{
+    height: 10px ;
+    width: 10px;
+  }
+}
+}
+#Projetos{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font: 30pt Impact, fantasy;
+  color: #00AD6F;
+  gap: 15rem;
+  h1{
+    color:  #00AD6F;
+    text-shadow: 2px 2px 3px #00AD6F;
+    font: 30pt Copperplate Gothic; ;
+    text-align: center;
+    align-items: center;
+  
+  }
+  h2{
+    font: 15pt Copperplate Gothic;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    p{
+      font: 20pt;
+
+    }
+    img{
+      width: 250px;
+      height: 250px;
+      text-align: center;
+      
+    }
+      
+  }
+  h3{
+    font: 15pt Copperplate Gothic;
+    text-align: left;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    p{
+      font: 20pt;
+
+    }
+    img{
+      width: 250px;
+      height: 250px;
+      text-align: center;
+      
+    }
+      
+  }
+
+  h4{
+    font: 15pt Copperplate Gothic;
+    text-align: left;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    p{
+      font: 20pt;
+
+    }
+    img{
+      width: 250px;
+      height: 250px;
+      text-align: center;
+      
+    }
+      
+    }
+  
+  h5{
+    font: 15pt Copperplate Gothic;
+    text-align: left;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    p{
+      font: 20pt;
+
+    }
+    img{
+      width: 250px;
+      height: 250px;
+      text-align: center;
+      
+    }
+ 
+  a{
+   
+  text-decoration: none;
+  text-shadow:black 5px 5px 10px;
+  background-color: none;
+  color:  none; 
+  transition: all 0.9s;
+  cursor: pointer;
+  font: 15pt Copperplate Gothic;
+  background-color:none ;
+  border: none;
+  color: rgb(255, 255, 255); 
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+}
+button{
+  width: 10px;
+  height: 10px;
+  color: #ffffff;
+  background-color: aqua;
+  text-align: left;
+  align-items: end;
+  img{
+    height: 10px ;
+    width: 10px;
+  }
+}
+}
+#Contato{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font: 30pt Impact, fantasy;
+    color:  rgb(248, 211, 162);
+    align-items: center;
+    align-self: center;
+    gap: 15rem;
+    h1{
+      color:  #00AD6F;
+      text-shadow: 2px 2px 3px #00AD6F;
+      font: 30pt Copperplate Gothic; ;
+    }
+    p{
+      font: 20pt Copperplate Gothic;
+    }
+    img{
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      align-items: center;
+      border-radius: 80%;
+    }
+    a{
+     
+    text-decoration: none;
+    text-shadow:black 5px 5px 10px;
+    background-color: none;
+    color:  none; 
+    transition: all 0.9s;
+    cursor: pointer;
+    font: 15pt Copperplate Gothic;
+    background-color:none ;
+    border: none;
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.9s;
+    cursor: pointer;
+    
+   
+  }
+  a:hover{
+           -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+           filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+           -webkit-transform: scale(1.4);
+           transform: scale(1.4);
+  }
+  button{
+    width: 15px;
+    height: 15px;
+    color: #ffffff;
+    background-color: aqua;
+    text-align: left; 
+  } 
+}
+footer{
+  background-color:none;
+  color: #000000;
+}
+@media screen and (max-width: 768px){
+  section, aside{
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 600px){
+  body{
+    text-rendering: auto;
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  #inicio{
+    text-align: center;
+  align-items: center;
+    img{
+      width: 80%;
+      height: 100%;
+      display: flex;
+    }
+  }
+  nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    position: fixed;
+    height: 5rem;
+    width: 100%;
+    transition: all 0.5;
+    cursor: pointer;
+    font: 15pt Impact, fantasy;
+    box-sizing: border-box;
+    font-family: Saira, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    }
+#sobre{
+  text-align: center;
+  display: flex;
+  img{
+    width: 0%;
+    height: 0%;
+  
+  background-image{
+    width: 400px;
+  }
+}
+}
+a{
+  font: 7pt normal Arial;
+}
+}
+  
