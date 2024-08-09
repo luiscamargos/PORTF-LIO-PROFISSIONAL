@@ -140,7 +140,7 @@ section{
     font: 15pt Impact, fantasy;
 
   }
-  img1{
+  img{
     width: 350px ;
     height: 350px;
     animation: rotate 30s linear infinite;
