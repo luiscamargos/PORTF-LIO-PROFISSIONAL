@@ -2,7 +2,6 @@
 * {padding: 0;}
 html{
   scroll-behavior: smooth;
-  text-align: center;
   width: 100%;
   list-style: none;
   display: table-cell;
@@ -14,8 +13,6 @@ html{
 }
 body{
 color: rgba(255, 255, 255, 0.594); 
-font: white;
-text-align: center;
 width: 100%;
 justify-content: space-around;
 @media screen and(max-width: 768px) {
@@ -30,12 +27,20 @@ body{
   background-color: aliceblue;
 }
 }
+@font-face{
+  font-family: "";
+  src: url('KutaiTrial-Normal.ttf') format
+  ('opentype'), url('KutaiTrial-Normal.ttf')
+  format ('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 nav ul{
-  color: red;
+  position: fixed;
+  background-color: #041911;
   display: flex;
-  align-items: center;
-  gap: 10rem;
-  position: absolute;
+  text-align: left;
+  gap: 5rem;
   padding-top: 5rem;
   height: 5rem;
   width: 100%;
@@ -45,14 +50,22 @@ nav ul{
   font-family: Saira, sans-serif;
   padding: 0;
   transition: .3s ease;
-  background-color: #00AD6F;
-  @media screen and (max-width: 768px){
-    section, aside{
-      width: 100%;
-    }
-  
-    }
-  a{
+  box-shadow: 1px 2px 3px white;
+  h1{
+    font-family: Saira, sans-serif;
+    font-size: 25px;
+    padding: 5px 5px;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+  p{
+    color: #00AD6F;
+
+  }
+}
+a{
     color: #ffffff;
     font: 15pt Copperplate Gothic;
     text-decoration: none;
@@ -61,8 +74,8 @@ nav ul{
         cursor: pointer;
         font: 15pt Copperplate Gothic;
         border: none; 
-        padding: 10px 20px;
-        text-align: center;
+        padding: 10px;
+        text-align: right;
         text-decoration: none;
         display: inline-block;
         font-size: 18px;
@@ -71,16 +84,14 @@ nav ul{
         border-radius: 8px;
         transition: all 0.9s;
         cursor: pointer;
-        
-       
-      }
-      a:hover{
+      
+}
+a:hover{
                -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
                filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
                -webkit-transform: scale(1.4);
                transform: scale(1.4);
-      } 
-}
+} 
 .nav ul:hover{
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
@@ -96,19 +107,12 @@ li{
       border: none;
       color:red; 
       padding: 10px 20px;
-      text-align: center;
       text-decoration: none;
       display: inline-block;
       margin: 4px 2px;
       cursor: pointer;
       border-radius: 8px;
       transition: background-color all 0.9s ease;
-      @media screen and (max-width: 768px){
-        section, aside{
-          width: 100%;
-        }
-      
-        }
       
 }
 .li:hover{
@@ -125,52 +129,127 @@ section{
   align-items: center;
 }
 #Inicio{
-  background-color: #000000;
-  text-align: center;
-  font: 12pt Arial, fantasy;
-  color: #00AD6F ;
-  position: center;  
-  align-items: center;
-  h1{
-    color:  #00AD6F;
-    text-shadow: 1px 1px 3px #00AD6F;
-    font: 30pt Copperplate Gothic; ;
-  }
-  p{
-    font: 15pt Impact, fantasy;
+background-color:  #020202;
+color: #00AD6F;
 
-  }
-  img{
-    width: 350px ;
-    height: 350px;
-    animation: rotate 30s linear infinite;
+padding: 10px;
+align-items: center;
+text-align: center;
+h1{
+    font-family: 'Saira, sans serif';
+    font-size: 45px;
+    text-align:center;
+    color:  #ffffff;
+    text-shadow: 3px 0px 10px #93edcc;
+    box-sizing: border-box;
+    font-family: Saira, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    transition: .3s ease;
+}
+img{
+      height: 40px;
+      width: 40px;
+      padding: 1%;
+      border: 0;
+      margin: 0%;
+    }
+h2{
+   img{
+    width: 300px ;
+    height: 300px;
+    animation: go-back 5s linear ;
     position:sticky;
-  }
-    
-    .proxpag{
-      img{
-      width: 15px;
-      height: 15px;
-      color: #ffffff;
-      background-color: aqua;
-      text-align: left;
-      align-items: end;
-      }
-     
-    
-  }
+    text-align: center;
+  
+} 
+}
+a{
+   
+    border-color: #00AD6F;
+    border-style: hidden;
+    padding: 0%;
+    border: solid;
+    background: #000000;
+    color: #242424;
+    text-decoration: none;
+    font-weight: bold;
+    border-width: 4px;
+    border-style: solid;
+    border-top-color: #262424;
+    border-right-color: #666;
+    border-bottom-color: #333;
+    border-left-color: #232222;
 }
 
-    @keyframes rotate {
-      from {
-        transform: rotate(0deg);
-      }
+}
+.text-animado{
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Saira, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
+  transition: .3s ease;
+  text-shadow:  2px 2px 5px;
+}
+.text-animado{
+  font-size: 25px;
+  font-weight: 300;
+}
+.text-animado span{
+  position: relative;
+}
+.text-animado span::before{
+  content: "";
+  color: #00AD6F;
+  animation: palavras 3.2s infinite;
   
-      to {
-        transform: rotate(359deg);
-      }
+}
+.text-animado span::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  border-left: 2px solid #ffffff;
+  right: -10px;
+  animation: cursor 0.7s infinite, digita 30s steps(50) infinite;
+  width: calc(100% + 18px);
+  background-color:  #020202;
+  border-radius:5px;
+}
+@keyframes digita{
+ 10%, 15%, 39%, 35%, 50%, 55%, 40%, 75%, 90%, 95%{
+  width: 0;
+ }
+ 5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+width: calc(100% + 18px);
+ }
+}
+@keyframes cursor{
+  0%{
+  border-left: 2px solid #020202;
+}
+}
+@keyframes palavras{
+ 0%, 100%{
+  content:"Desenvolvedor WEB";
+text-shadow: 2px 2px 10px;
+}
+}
+@keyframes go-back {
+  0% {
+      transform: translateX(100px);
   }
-   
+  100% {
+      transform: translateX(0);
+  }
+}
+.quadrado {
+  animation: go-back 1s;
+}  
 #Sobre{
   background-color: rgb(0, 0, 0);
     padding: 0%;
@@ -193,23 +272,10 @@ section{
         height: 300px;
         border-radius: 20%;
 }
-.div.sobre{
-  display: flex;
-} button{
-  width: 15px;
-  height: 15px;
-  color: #ffffff;
-  background-color: aqua;
-  text-align: left;
-  align-items: end;
-  img{
-    height: 10px ;
-    width: 10px;
-  }
-}
+
 }
 #Projetos{
-  background-color: rgb(0, 0, 0);
+  background-color: #092219;
   text-align: center;
   font: 30pt Impact, fantasy;
   color: #00AD6F;
@@ -317,18 +383,7 @@ section{
   border-radius: 8px;
 }
 }
-button{
-  width: 10px;
-  height: 10px;
-  color: #ffffff;
-  background-color: aqua;
-  text-align: left;
-  align-items: end;
-  img{
-    height: 10px ;
-    width: 10px;
-  }
-}
+
 }
 #Contato{
     background-color: rgb(0, 0, 0);
@@ -338,21 +393,20 @@ button{
     align-items: center;
     align-self: center;
     gap: 15rem;
-    h1{
+h1{
       color:  #00AD6F;
       text-shadow: 2px 2px 3px #00AD6F;
       font: 30pt Copperplate Gothic; ;
     }
-    p{
+p{
       font: 20pt Copperplate Gothic;
     }
-    img{
-      width: 50px;
-      height: 50px;
+img{
+      width: 80px;
+      height: 80px;
       text-align: center;
-      align-items: center;
-      border-radius: 80%;
-    }
+      align-items: center;     
+}
     a{
      
     text-decoration: none;
@@ -393,64 +447,7 @@ button{
   } 
 }
 footer{
-  background-color:none;
   color: #000000;
-}
-@media screen and (max-width: 768px){
-  section, aside{
-    width: 100%;
-    padding: 0;
-  }
-}
-@media screen and (max-width: 600px){
-  body{
-    text-rendering: auto;
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
-  #inicio{
-    text-align: center;
-  align-items: center;
-    img{
-      width: 80%;
-      height: 100%;
-      display: flex;
-    }
-  }
-  nav ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 0.1rem;
-    position: fixed;
-    height: 5rem;
-    width: 100%;
-    transition: all 0.5;
-    cursor: pointer;
-    font: 15pt Impact, fantasy;
-    box-sizing: border-box;
-    font-family: Saira, sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    scroll-padding-top: 2rem;
-    }
-#sobre{
   text-align: center;
-  display: flex;
-  img{
-    width: 0%;
-    height: 0%;
-  
-  background-image{
-    width: 400px;
-  }
 }
-}
-a{
-  font: 7pt normal Arial;
-}
-}
-  
-  
+
