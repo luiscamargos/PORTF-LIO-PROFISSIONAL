@@ -229,6 +229,9 @@ a{
     gap: 5rem;
     h2{
         font: 15pt Copperplate Gothic;
+        text-align: center;
+        padding-left: 450px ;
+        padding-right: 450px;
     }
     
     img{
@@ -245,6 +248,7 @@ a{
   color: #00AD6F;
   gap: 15rem;
   padding-left: 100px;
+  
  
   h2{
     font: 15pt Copperplate Gothic;
@@ -456,6 +460,8 @@ img{
 }
 
 
+
+
 @media screen and (max-height: 700px) and (max-width: 900px){ 
 
 #Inicio{
@@ -572,9 +578,8 @@ width: 30px;
       
       
     }
-  }
-
-    h3{
+  
+  h3{
       font-size: 10pt;
   font-family: 'Courier New', Courier, monospace;
       img{
@@ -618,4 +623,6 @@ width: 30px;
   
     }
   }
+}
+  
   
